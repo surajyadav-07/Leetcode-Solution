@@ -5,8 +5,15 @@ This repository contains my LeetCode and DSA practice solutions in C++.
 ## Solved Problems
 
 ### Arrays
-- Maximum Subarray (LeetCode 53)
+1. Maximum Subarray
+   - Algorithm: Kadane's Algorithm
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
 
+2. Majority Element
+   - Algorithm: Boyer-Moore Voting Algorithm
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
 ## Language
 - C++
 
