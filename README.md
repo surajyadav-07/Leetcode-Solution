@@ -21,7 +21,7 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Time Complexity: O(n)
    - Space Complexity: O(1)
      
-## Math
+### Math
 
 1. Pow(x, n)
 
