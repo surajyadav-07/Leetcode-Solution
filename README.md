@@ -14,6 +14,14 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Boyer-Moore Voting Algorithm
    - Time Complexity: O(n)
    - Space Complexity: O(1)
+     
+## Math
+
+1. Pow(x, n)
+
+   - Algorithm: Binary Exponentiation (Fast Power)
+   - Time Complexity: O(log n)
+   - Space Complexity: O(1)     
 ## Language
 - C++
 
