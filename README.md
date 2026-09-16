@@ -20,6 +20,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Single Pass (Track Minimum Price)
    - Time Complexity: O(n)
    - Space Complexity: O(1)
+  
+4. Container With Most Water
+
+   - Algorithm: Two Pointers
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
      
 ### Math
 
