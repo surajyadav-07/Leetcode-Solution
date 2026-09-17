@@ -26,6 +26,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Two Pointers
    - Time Complexity: O(n)
    - Space Complexity: O(1)
+  
+5. Product of Array Except Self
+
+   - Algorithm: Prefix & Suffix Product Arrays
+   - Time Complexity: O(n)
+   - Space Complexity: O(n)
      
 ### Math
 
