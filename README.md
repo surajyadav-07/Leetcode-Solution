@@ -38,6 +38,11 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Modified Binary Search
    - Time Complexity: O(log n)
    - Space Complexity: O(1)
+  
+7. Peak Index in a Mountain Array
+   - Algorithm: Binary Search
+   - Time Complexity: O(log n)
+   - Space Complexity: O(1)
      
 ### Math
 
