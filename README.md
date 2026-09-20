@@ -32,6 +32,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Prefix & Suffix Product Arrays
    - Time Complexity: O(n)
    - Space Complexity: O(n)
+  
+6. Search in Rotated Sorted Array
+
+   - Algorithm: Modified Binary Search
+   - Time Complexity: O(log n)
+   - Space Complexity: O(1)
      
 ### Math
 
