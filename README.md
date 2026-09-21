@@ -43,6 +43,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Binary Search
    - Time Complexity: O(log n)
    - Space Complexity: O(1)
+  
+8. Single Element in a Sorted Array
+
+   • Algorithm: Binary Search
+   • Time Complexity: O(log n)
+   • Space Complexity: O(1)
      
 ### Math
 
