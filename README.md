@@ -55,6 +55,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   • Algorithm: Binary Search on Answer + Greedy Allocation
   • Time Complexity: O(n * log(sum))
   • Space Complexity: O(1)
+
+10. Aggressive Cows
+
+   • Algorithm: Binary Search on Answer + Greedy Placement
+   • Time Complexity: O(N * log(MaxDistance))
+   • Space Complexity: O(1)
      
 ### Math
 
