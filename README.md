@@ -61,6 +61,32 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    • Algorithm: Binary Search on Answer + Greedy Placement
    • Time Complexity: O(N * log(MaxDistance))
    • Space Complexity: O(1)
+
+11. Sorting Algorithms
+
+##  Bubble Sort
+- Algorithm: Repeatedly compare adjacent elements and swap if they are in the wrong order.
+- Time Complexity:
+  - Best Case: O(n)
+  - Average Case: O(n²)
+  - Worst Case: O(n²)
+- Space Complexity: O(1)
+
+##  Selection Sort
+- Algorithm: Find the smallest element in the unsorted part and place it at its correct position.
+- Time Complexity:
+  - Best Case: O(n²)
+  - Average Case: O(n²)
+  - Worst Case: O(n²)
+- Space Complexity: O(1)
+
+##  Insertion Sort
+- Algorithm: Insert each element into its correct position in the sorted part of the array.
+- Time Complexity:
+  - Best Case: O(n)
+  - Average Case: O(n²)
+  - Worst Case: O(n²)
+- Space Complexity: O(1)
      
 ### Math
 
