@@ -62,7 +62,13 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    • Time Complexity: O(N * log(MaxDistance))
    • Space Complexity: O(1)
 
-11. Sorting Algorithms
+11. Sort Colors (Dutch National Flag)
+
+   • Algorithm: Dutch National Flag (Three Pointers - Low, Mid, High)
+   • Time Complexity: O(n)
+   • Space Complexity: O(1)
+
+12. Sorting Algorithms
 
 ##  Bubble Sort
 - Algorithm: Repeatedly compare adjacent elements and swap if they are in the wrong order.
