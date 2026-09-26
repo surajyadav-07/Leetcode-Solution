@@ -94,13 +94,23 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Worst Case: O(n²)
 - Space Complexity: O(1)
 
-## Merge Sorted Array
+  
+13.  Merge Sorted Array
 
 - Algorithm: Merge two sorted arrays using Three Pointers from the end.
 - Time Complexity:
   - Best Case: O(m+n)
   - Average Case: O(m+n)
   - Worst Case: O(m+n)
+- Space Complexity: O(1)
+
+14.  Next Permutation
+
+- Algorithm: Find Pivot, Swap with next greater element, then Reverse the suffix.
+- Time Complexity:
+  - Best Case: O(n)
+  - Average Case: O(n)
+  - Worst Case: O(n)
 - Space Complexity: O(1)
      
 ### Math
