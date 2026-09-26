@@ -93,6 +93,15 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Average Case: O(n²)
   - Worst Case: O(n²)
 - Space Complexity: O(1)
+
+## Merge Sorted Array
+
+- Algorithm: Merge two sorted arrays using Three Pointers from the end.
+- Time Complexity:
+  - Best Case: O(m+n)
+  - Average Case: O(m+n)
+  - Worst Case: O(m+n)
+- Space Complexity: O(1)
      
 ### Math
 
