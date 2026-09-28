@@ -70,7 +70,7 @@ This repository contains my LeetCode and DSA practice solutions in C++.
 
 12. Sorting Algorithms
 
-##  Bubble Sort
+  Bubble Sort
 - Algorithm: Repeatedly compare adjacent elements and swap if they are in the wrong order.
 - Time Complexity:
   - Best Case: O(n)
@@ -78,7 +78,7 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Worst Case: O(n²)
 - Space Complexity: O(1)
 
-##  Selection Sort
+  Selection Sort
 - Algorithm: Find the smallest element in the unsorted part and place it at its correct position.
 - Time Complexity:
   - Best Case: O(n²)
@@ -86,7 +86,7 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Worst Case: O(n²)
 - Space Complexity: O(1)
 
-##  Insertion Sort
+  Insertion Sort
 - Algorithm: Insert each element into its correct position in the sorted part of the array.
 - Time Complexity:
   - Best Case: O(n)
@@ -112,6 +112,20 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Average Case: O(n)
   - Worst Case: O(n)
 - Space Complexity: O(1)
+
+### Strings
+
+1. Valid Palindrome
+
+   - Algorithm: Two Pointers
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
+
+2. Remove All Occurrences of a Substring
+
+   - Algorithm: Repeated Find & Erase (String Manipulation)
+   - Time Complexity: O(n²)
+   - Space Complexity: O(1)
      
 ### Math
 
