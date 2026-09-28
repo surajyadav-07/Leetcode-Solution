@@ -126,6 +126,12 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Repeated Find & Erase (String Manipulation)
    - Time Complexity: O(n²)
    - Space Complexity: O(1)
+  
+3. Reverse String
+
+   - Algorithm: Two Pointers (In-place Swap)
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
      
 ### Math
 
