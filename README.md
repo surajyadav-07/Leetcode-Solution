@@ -132,6 +132,13 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Algorithm: Two Pointers (In-place Swap)
    - Time Complexity: O(n)
    - Space Complexity: O(1)
+  
+4. Permutation in String
+
+- Algorithm: Sliding Window + Character Frequency Count
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
      
 ### Math
 
