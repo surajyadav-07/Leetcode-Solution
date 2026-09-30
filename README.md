@@ -139,6 +139,18 @@ This repository contains my LeetCode and DSA practice solutions in C++.
 - Time Complexity: O(n)
 - Space Complexity: O(1)
 
+5. Reverse Words in a String (LeetCode 151)
+
+- Algorithm: Two Pointers + String Traversal
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+6. String Compression (LeetCode 443)
+
+- Algorithm: Two Pointers (Read & Write Pointer)
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
      
 ### Math
 
