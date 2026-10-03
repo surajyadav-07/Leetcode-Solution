@@ -113,6 +113,11 @@ This repository contains my LeetCode and DSA practice solutions in C++.
   - Worst Case: O(n)
 - Space Complexity: O(1)
 
+15. Spiral Matrix
+   - Algorithm: Boundary Traversal (srow, erow, scol, ecol)
+   - Time Complexity: O(m*n)
+   - Space Complexity: O(1)
+
 ### Strings
 
 1. Valid Palindrome
