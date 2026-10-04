@@ -118,6 +118,24 @@ This repository contains my LeetCode and DSA practice solutions in C++.
    - Time Complexity: O(m*n)
    - Space Complexity: O(1)
 
+16. Two Sum
+
+- Algorithm: Hash Map (Unordered Map)
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+17. Find the Duplicate Number (LeetCode 287)
+
+- Algorithm: Floyd's Cycle Detection (Tortoise & Hare)
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+18. Find Missing and Repeated Values (LeetCode 2965)
+
+- Algorithm: Frequency Counting / Hashing
+- Time Complexity: O(n²)
+- Space Complexity: O(n²)
+
 ### Strings
 
 1. Valid Palindrome
