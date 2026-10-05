@@ -1,189 +1,103 @@
-# LeetCode Solutions
+# LeetCode Solutions in C++
 
-This repository contains my LeetCode and DSA practice solutions in C++.
+> A collection of LeetCode and DSA problems solved in C++ with optimized approaches, complexity analysis, and pattern-based categorization.
 
-## Solved Problems
+---
+
+## Repository Statistics
+
+| Category | Problems Solved |
+|-----------|----------------|
+| Arrays | 18 |
+| Strings | 6 |
+| Hashing | 2 |
+| Math | 1 |
+| Total | 27 |
+
+---
+
+## Problem Categories
 
 ### Arrays
-1. Maximum Subarray
-   - Algorithm: Kadane's Algorithm
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
 
-2. Majority Element
-   - Algorithm: Boyer-Moore Voting Algorithm
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
-  
-3. Best Time to Buy and Sell Stock
+| # | Problem | Algorithm | Time | Space |
+|---|----------|-----------|-------|--------|
+| 1 | Maximum Subarray | Kadane's Algorithm | O(n) | O(1) |
+| 2 | Majority Element | Boyer-Moore Voting | O(n) | O(1) |
+| 3 | Best Time to Buy and Sell Stock | Single Pass | O(n) | O(1) |
+| 4 | Container With Most Water | Two Pointers | O(n) | O(1) |
+| 5 | Product of Array Except Self | Prefix & Suffix Products | O(n) | O(n) |
+| 6 | Search in Rotated Sorted Array | Modified Binary Search | O(log n) | O(1) |
+| 7 | Peak Index in Mountain Array | Binary Search | O(log n) | O(1) |
+| 8 | Single Element in Sorted Array | Binary Search | O(log n) | O(1) |
+| 9 | Painter's Partition Problem | Binary Search on Answer | O(n log(sum)) | O(1) |
+| 10 | Aggressive Cows | Binary Search on Answer | O(n log(maxDistance)) | O(1) |
+| 11 | Sort Colors | Dutch National Flag | O(n) | O(1) |
+| 12 | Merge Sorted Array | Three Pointers | O(m+n) | O(1) |
+| 13 | Next Permutation | Pivot + Reverse | O(n) | O(1) |
+| 14 | Spiral Matrix | Boundary Traversal | O(m×n) | O(1) |
+| 15 | Two Sum | Hash Map | O(n) | O(n) |
+| 16 | Find Duplicate Number (287) | Floyd Cycle Detection | O(n) | O(1) |
+| 17 | Find Missing and Repeated Values (2965) | Frequency Counting | O(n²) | O(n²) |
 
-   - Algorithm: Single Pass (Track Minimum Price)
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
-  
-4. Container With Most Water
+---
 
-   - Algorithm: Two Pointers
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
-  
-5. Product of Array Except Self
+### Hashing
 
-   - Algorithm: Prefix & Suffix Product Arrays
-   - Time Complexity: O(n)
-   - Space Complexity: O(n)
-  
-6. Search in Rotated Sorted Array
+| # | Problem | Algorithm | Time | Space |
+|---|----------|-----------|-------|--------|
+| 1 | Contains Duplicate (217) | Hash Set | O(n) | O(n) |
+| 2 | Valid Anagram (242) | Frequency Array | O(n) | O(1) |
 
-   - Algorithm: Modified Binary Search
-   - Time Complexity: O(log n)
-   - Space Complexity: O(1)
-  
-7. Peak Index in a Mountain Array
-   - Algorithm: Binary Search
-   - Time Complexity: O(log n)
-   - Space Complexity: O(1)
-  
-8. Single Element in a Sorted Array
-
-   • Algorithm: Binary Search
-   • Time Complexity: O(log n)
-   • Space Complexity: O(1)
-
-9. Painter's Partition Problem
-
-  • Algorithm: Binary Search on Answer + Greedy Allocation
-  • Time Complexity: O(n * log(sum))
-  • Space Complexity: O(1)
-
-10. Aggressive Cows
-
-   • Algorithm: Binary Search on Answer + Greedy Placement
-   • Time Complexity: O(N * log(MaxDistance))
-   • Space Complexity: O(1)
-
-11. Sort Colors (Dutch National Flag)
-
-   • Algorithm: Dutch National Flag (Three Pointers - Low, Mid, High)
-   • Time Complexity: O(n)
-   • Space Complexity: O(1)
-
-12. Sorting Algorithms
-
-  Bubble Sort
-- Algorithm: Repeatedly compare adjacent elements and swap if they are in the wrong order.
-- Time Complexity:
-  - Best Case: O(n)
-  - Average Case: O(n²)
-  - Worst Case: O(n²)
-- Space Complexity: O(1)
-
-  Selection Sort
-- Algorithm: Find the smallest element in the unsorted part and place it at its correct position.
-- Time Complexity:
-  - Best Case: O(n²)
-  - Average Case: O(n²)
-  - Worst Case: O(n²)
-- Space Complexity: O(1)
-
-  Insertion Sort
-- Algorithm: Insert each element into its correct position in the sorted part of the array.
-- Time Complexity:
-  - Best Case: O(n)
-  - Average Case: O(n²)
-  - Worst Case: O(n²)
-- Space Complexity: O(1)
-
-  
-13.  Merge Sorted Array
-
-- Algorithm: Merge two sorted arrays using Three Pointers from the end.
-- Time Complexity:
-  - Best Case: O(m+n)
-  - Average Case: O(m+n)
-  - Worst Case: O(m+n)
-- Space Complexity: O(1)
-
-14.  Next Permutation
-
-- Algorithm: Find Pivot, Swap with next greater element, then Reverse the suffix.
-- Time Complexity:
-  - Best Case: O(n)
-  - Average Case: O(n)
-  - Worst Case: O(n)
-- Space Complexity: O(1)
-
-15. Spiral Matrix
-   - Algorithm: Boundary Traversal (srow, erow, scol, ecol)
-   - Time Complexity: O(m*n)
-   - Space Complexity: O(1)
-
-16. Two Sum
-
-- Algorithm: Hash Map (Unordered Map)
-- Time Complexity: O(n)
-- Space Complexity: O(n)
-
-17. Find the Duplicate Number (LeetCode 287)
-
-- Algorithm: Floyd's Cycle Detection (Tortoise & Hare)
-- Time Complexity: O(n)
-- Space Complexity: O(1)
-
-18. Find Missing and Repeated Values (LeetCode 2965)
-
-- Algorithm: Frequency Counting / Hashing
-- Time Complexity: O(n²)
-- Space Complexity: O(n²)
+---
 
 ### Strings
 
-1. Valid Palindrome
+| # | Problem | Algorithm | Time | Space |
+|---|----------|-----------|-------|--------|
+| 1 | Valid Palindrome | Two Pointers | O(n) | O(1) |
+| 2 | Remove All Occurrences of a Substring | String Manipulation | O(n²) | O(1) |
+| 3 | Reverse String | Two Pointers | O(n) | O(1) |
+| 4 | Permutation in String | Sliding Window | O(n) | O(1) |
+| 5 | Reverse Words in a String | Two Pointers | O(n) | O(n) |
+| 6 | String Compression | Read & Write Pointers | O(n) | O(1) |
 
-   - Algorithm: Two Pointers
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
+---
 
-2. Remove All Occurrences of a Substring
-
-   - Algorithm: Repeated Find & Erase (String Manipulation)
-   - Time Complexity: O(n²)
-   - Space Complexity: O(1)
-  
-3. Reverse String
-
-   - Algorithm: Two Pointers (In-place Swap)
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
-  
-4. Permutation in String
-
-- Algorithm: Sliding Window + Character Frequency Count
-- Time Complexity: O(n)
-- Space Complexity: O(1)
-
-5. Reverse Words in a String (LeetCode 151)
-
-- Algorithm: Two Pointers + String Traversal
-- Time Complexity: O(n)
-- Space Complexity: O(n)
-
-6. String Compression (LeetCode 443)
-
-- Algorithm: Two Pointers (Read & Write Pointer)
-- Time Complexity: O(n)
-- Space Complexity: O(1)
-
-     
 ### Math
 
-1. Pow(x, n)
+| # | Problem | Algorithm | Time | Space |
+|---|----------|-----------|-------|--------|
+| 1 | Pow(x, n) | Binary Exponentiation | O(log n) | O(1) |
 
-   - Algorithm: Binary Exponentiation (Fast Power)
-   - Time Complexity: O(log n)
-   - Space Complexity: O(1)     
+---
+
+## Algorithms Practiced
+
+- Kadane's Algorithm
+- Boyer-Moore Voting Algorithm
+- Binary Search
+- Binary Search on Answer
+- Two Pointers
+- Sliding Window
+- Hashing
+- Prefix & Suffix Arrays
+- Dutch National Flag Algorithm
+- Floyd Cycle Detection
+- Greedy Allocation
+- Boundary Traversal
+
+---
+
 ## Language
+
 - C++
 
-## Goal
-To improve problem-solving skills and strengthen Data Structures & Algorithms concepts through consistent practice.
+---
+
+## Learning Goal
+
+This repository tracks my journey of mastering Data Structures and Algorithms through consistent practice of LeetCode and classic interview problems. The focus is on understanding patterns, writing optimized solutions, and strengthening problem-solving skills for software engineering roles.
+
+---
+⭐ Continually updated as I solve new problems.
