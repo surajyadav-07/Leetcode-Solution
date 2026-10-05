@@ -10,9 +10,9 @@
 |-----------|----------------|
 | Arrays | 18 |
 | Strings | 6 |
-| Hashing | 2 |
+| Hashing | 3 |
 | Math | 1 |
-| Total | 27 |
+| Total | 28 |
 
 ---
 
@@ -48,7 +48,7 @@
 |---|----------|-----------|-------|--------|
 | 1 | Contains Duplicate (217) | Hash Set | O(n) | O(n) |
 | 2 | Valid Anagram (242) | Frequency Array | O(n) | O(1) |
-
+| 3 | Ransom Note (383) | Frequency Array | O(n+m) | O(1) |
 ---
 
 ### Strings
