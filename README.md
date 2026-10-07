@@ -10,9 +10,9 @@
 |-----------|----------------|
 | Arrays | 17 |
 | Strings | 6 |
-| Hashing | 9 |
+| Hashing | 10 |
 | Math | 1 |
-| Total | 33+ |
+| Total | 34+ |
 
 ---
 
@@ -54,7 +54,7 @@
 | 7 | Longest Consecutive Sequence (128) | Hash Set              | O(n)           | O(n)     |
 | 8 | Group Anagrams (49)                | Hash Map + Sorting    | O(n × k log k) | O(n × k) |
 | 9 | Subarray Sum Equals K (560)        | Prefix Sum + Hash Map | O(n)           | O(n)     |
-
+| 10 | Isomorphic String (205)           | Hash Map + Hash Set   | O(n)           | O(n)     |
 ---
 # String
 
