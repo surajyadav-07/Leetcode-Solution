@@ -8,11 +8,11 @@
 
 | Category | Problems Solved |
 |-----------|----------------|
-| Arrays | 17 |
+| Arrays | 19 |
 | Strings | 6 |
 | Hashing | 11 |
 | Math | 1 |
-| Total | 35+ |
+| Total | 37+ |
 
 ---
 
@@ -39,7 +39,8 @@
 | 15 | Two Sum                                 | Hash Map                | O(n)                  | O(n)  |
 | 16 | Find Duplicate Number (287)             | Floyd Cycle Detection   | O(n)                  | O(1)  |
 | 17 | Find Missing and Repeated Values (2965) | Frequency Counting      | O(n²)                 | O(n²) |
-
+| 18 | Maximum Consecutive Ones (485) | Traversal | O(n) | O(1) |
+| 19 | Rotate Array (189) | Reversal Algorithm | O(n) | O(1) |
 ---
 # Hashing
 
