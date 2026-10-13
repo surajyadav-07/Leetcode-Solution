@@ -8,11 +8,11 @@
 
 | Category | Problems Solved |
 |-----------|----------------|
-| Arrays | 19 |
+| Arrays | 22 |
 | Strings | 6 |
 | Hashing | 11 |
 | Math | 1 |
-| Total | 37+ |
+| Total | 40+ |
 
 ---
 
@@ -20,27 +20,35 @@
 
 # Array
 
-| #  | Problem                                 | Algorithm               | Time                  | Space |
-| -- | --------------------------------------- | ----------------------- | --------------------- | ----- |
-| 1  | Maximum Subarray                        | Kadane's Algorithm      | O(n)                  | O(1)  |
-| 2  | Majority Element                        | Boyer-Moore Voting      | O(n)                  | O(1)  |
-| 3  | Best Time to Buy and Sell Stock         | Single Pass             | O(n)                  | O(1)  |
-| 4  | Container With Most Water               | Two Pointers            | O(n)                  | O(1)  |
-| 5  | Product of Array Except Self            | Prefix & Suffix         | O(n)                  | O(n)  |
-| 6  | Search in Rotated Sorted Array          | Binary Search           | O(log n)              | O(1)  |
-| 7  | Peak Index in Mountain Array            | Binary Search           | O(log n)              | O(1)  |
-| 8  | Single Element in Sorted Array          | Binary Search           | O(log n)              | O(1)  |
-| 9  | Painter's Partition Problem             | Binary Search on Answer | O(n log(sum))         | O(1)  |
-| 10 | Aggressive Cows                         | Binary Search on Answer | O(n log(maxDistance)) | O(1)  |
-| 11 | Sort Colors                             | Dutch National Flag     | O(n)                  | O(1)  |
-| 12 | Merge Sorted Array                      | Three Pointers          | O(m+n)                | O(1)  |
-| 13 | Next Permutation                        | Pivot + Reverse         | O(n)                  | O(1)  |
-| 14 | Spiral Matrix                           | Boundary Traversal      | O(m*n)                | O(1)  |
-| 15 | Two Sum                                 | Hash Map                | O(n)                  | O(n)  |
-| 16 | Find Duplicate Number (287)             | Floyd Cycle Detection   | O(n)                  | O(1)  |
-| 17 | Find Missing and Repeated Values (2965) | Frequency Counting      | O(n²)                 | O(n²) |
-| 18 | Maximum Consecutive Ones (485) | Traversal | O(n) | O(1) |
+| # | Problem / File | Algorithm / Pattern | Time | Space |
+|---|----------------|---------------------|------|-------|
+| 1 | Best Time to Buy and Sell Stock (121) | Single Pass | O(n) | O(1) |
+| 2 | Product of Array Except Self (238) | Prefix & Suffix | O(n) | O(1)* |
+| 3 | 3Sum | Sorting + Two Pointers | O(n²) | O(1)* |
+| 4 | 4Sum (18) | Sorting + Two Pointers | O(n³) | O(1)* |
+| 5 | Aggressive Cows | Binary Search on Answer | O(n log D) | O(1) |
+| 6 | Basic Sorting | Sorting Algorithms | Depends on Algorithm | Depends on Algorithm |
+| 7 | Container With Most Water | Two Pointers | O(n) | O(1) |
+| 8 | Find Duplicate Number (287) | Floyd Cycle Detection | O(n) | O(1) |
+| 9 | Dutch National Flag Algorithm | Three Pointers | O(n) | O(1) |
+| 10 | Find Missing and Repeated Values (2965) | Frequency Counting | O(n²) | O(n²) |
+| 11 | Leader in Array | Traversal | O(n) | O(n)* |
+| 12 | Majority Element | Boyer-Moore Voting | O(n) | O(1) |
+| 13 | Maximum Consecutive Ones (485) | Traversal | O(n) | O(1) |
+| 14 | Maximum Subarray | Kadane's Algorithm | O(n) | O(1) |
+| 15 | Merge 2 Sorted Arrays | Three Pointers | O(m+n) | O(1)* |
+| 16 | Mountain Array | Array Traversal / Binary Search | Depends on Approach | Depends on Approach |
+| 17 | Next Permutation | Pivot + Reverse | O(n) | O(1) |
+| 18 | Painter's Partition Problem | Binary Search on Answer | O(n log S) | O(1) |
 | 19 | Rotate Array (189) | Reversal Algorithm | O(n) | O(1) |
+| 20 | Search in Rotated Sorted Array | Modified Binary Search | O(log n) | O(1) |
+| 21 | Single Element in a Sorted Array | Binary Search | O(log n) | O(1) |
+| 22 | Spiral Matrix | Boundary Traversal | O(m × n) | O(1)* |
+
+**Notes:**
+- `D` = maximum distance; `S` = sum of array elements.
+- `*` Space complexity depends on the implementation and excludes the output where applicable.
+- Update the algorithm and complexity if your specific implementation uses a different approach.
 ---
 # Hashing
 
