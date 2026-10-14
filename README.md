@@ -8,11 +8,11 @@
 
 | Category | Problems Solved |
 |-----------|----------------|
-| Arrays | 22 |
+| Arrays | 23 |
 | Strings | 6 |
 | Hashing | 11 |
 | Math | 1 |
-| Total | 40+ |
+| Total | 41+ |
 
 ---
 
@@ -44,6 +44,7 @@
 | 20 | Search in Rotated Sorted Array | Modified Binary Search | O(log n) | O(1) |
 | 21 | Single Element in a Sorted Array | Binary Search | O(log n) | O(1) |
 | 22 | Spiral Matrix | Boundary Traversal | O(m × n) | O(1)* |
+| 23 | Majority Element 2 |  Boyer-Moore Voting | 0(n) | o(1) |
 
 **Notes:**
 - `D` = maximum distance; `S` = sum of array elements.
