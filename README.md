@@ -8,11 +8,11 @@
 
 | Category | Problems Solved |
 |-----------|----------------|
-| Arrays | 25 |
+| Arrays | 26 |
 | Strings | 6 |
 | Hashing | 11 |
 | Math | 1 |
-| Total | 43+ |
+| Total | 44+ |
 
 ---
 
